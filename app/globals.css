@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.swiper-pagination-bullet-active{
+  background: #07689F !important;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+.thin-scrollbar::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+
+/* Handle */
+.thin-scrollbar::-webkit-scrollbar-thumb {
+  background: #757575;
+  /* border-radius: 12px; */
+}

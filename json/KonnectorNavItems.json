@@ -1,0 +1,18 @@
+[
+  {
+    "name": "explore",
+    "route": "/konnector/explore"
+  },
+  {
+    "name": "konnects",
+    "route": "/konnector/konnects"
+  },
+  {
+    "name": "new",
+    "route": "/konnector/new"
+  },
+  {
+    "name": "settings",
+    "route": "/konnector/settings"
+  }
+]
